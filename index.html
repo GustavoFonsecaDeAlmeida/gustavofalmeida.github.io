@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>  
+   <head>
+
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxmvO2vy8gsxtTf8DZYh0rINqv0l_JnNA&libraries=places"
+         ></script>
+
+      <script type="text/javascript" src="customJs.js"></script>
+       <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   </head>
+
+   <body onload = "loadMap()">
+      <div id = 'info'>
+         <div class="form-group">
+      <label for="Title">Titulo:</label>
+      <input type="Title" class="form-control" id="Title" placeholder="Digite o Titulo" name="Title">
+    </div>
+    <div class="form-group">
+      <label for="mensagem">Mensagem:</label>
+      <input type="mensagem" class="form-control" id="mensagem" placeholder="Digite a mensagem" name="mensagem">
+    </div>
+      </div>
+      <input id="pac-input" class="controls" type="text" placeholder="Pesquise aqui...">
+      <div id = "map"></div>
+
+   </body>
+</html>
+
+
+
+
+
+
+
